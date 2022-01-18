@@ -12,34 +12,40 @@
     <!-- googlefonts css and js  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
-    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>DEVCON</title>
 </head>
 
 <body>
     <div id="main-container">
-        <nav id="navbar">
-            <!-- navbar logo -->
-            <div class="nav-logo">
-                <!--  text logo to test(remove when logo image added) -->
-                <h1 style="color:#c74141eb; font-size:30px;">LOGO</h1>
-                <!-- logo image to be added -->
-                <!-- <img class="logo-img" src="" alt="LOGO"> -->
-            </div>
-            <!-- nav menu -->
-            <div class="nav-menu">
-                <li><a href="#" class="nav-link">ABOUT</a></li>
-                <li><a href="#" class="nav-link">CONTACT</a></li>
-                <li><a href="#" class="nav-link">EVENTS</a></li>
-            </div>
+       <!--Nav bar-->
+    <header class="main">
+        <h2 class="logo"><a href="http://github.com/dikshatakyar" target="_blank" rel="noopener noreferrer">DEVCON LOGO</a></h2>
+        <!-- <input type="checkbox" name="checkbox" id="btn-toggle"> -->
+        <!-- <label for="btn-toggle" class="btn-toggle"></label> -->
+        <button id="hambtn">☰</button>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+            </ul>
         </nav>
+    </header>
 
-        <div class="content-container">
-            <div class="greet-container">
-                <h1>Welcome!</h1>
-            </div>
-        </div>
-
+    <div class="landing-page">
+        <!-- <div class="welcome">Welcome to the Summit!</div> -->
+        <h1 class="welcome">Welcome to the Summit!</h1>
+        <div class="animate">Together we
+            <span class="typing"></span></div>    
     </div>
 
     <script src="/js/index.js"></script>
